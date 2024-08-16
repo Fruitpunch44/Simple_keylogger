@@ -68,8 +68,8 @@ def on_press(key):
 
 # this function handles when any key is released
 def on_release(key):
-    logging.info('{0} release'.format(key))
-    print('{0} release'.format(key))
+    logging.info(f'{key} released')
+    print(f'{key} released')
     if key == keyboard.Key.esc:
         return False
 
